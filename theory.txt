@@ -1,0 +1,5 @@
+Block element = takes whole line  eg: h tag, p 
+inline element =  take space as necessart eg:span,a
+
+relative path 
+absolute path
