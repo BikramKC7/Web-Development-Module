@@ -3,3 +3,15 @@ inline element =  take space as necessart eg:span,a
 
 relative path 
 absolute path
+
+---------------Wrapper element----------------------
+. div
+. nav
+. main
+. article
+. aside
+. section
+
+table head= head of whole table
+table header
+
