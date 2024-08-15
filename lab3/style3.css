@@ -1,0 +1,35 @@
+*{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+p{
+    color: brown;
+
+}
+
+.diff-p{
+    color: aliceblue;
+    font-style: italic;
+}
+
+#unique-p{
+    color: aqua;
+}
+
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    margin: 20px 10px;
+    padding: 20px 10px;
+}
+
+.dolor{
+    margin: 10px;
+    cursor: pointer;
+}
+
+p .dolor{
+    color: green;
+    margin: 0px;
+}

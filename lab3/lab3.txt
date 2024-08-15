@@ -7,6 +7,10 @@ CSS
    To Select Class & id
    Class = .
    id = #
+   To selec the tag which is inside of other tag
+   p span{
+    
+   }
 
    Priotize level
    id > class > tag
