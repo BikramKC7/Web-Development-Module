@@ -1,0 +1,15 @@
+CSS
+. Types of CSS
+
+- Inline css eg: <body style="background-color: rgb(85, 110, 226);"> : use css in tag itself
+   - drawbacks : redundent approach
+
+   To Select Class & id
+   Class = .
+   id = #
+
+   Priotize level
+   id > class > tag
+   inline css > internal css > external css
+
+- Internal CSS
