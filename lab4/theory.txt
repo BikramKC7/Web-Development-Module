@@ -1,0 +1,4 @@
+justify-content alwayz move the items horizontally
+algin-items : move the intems vertically in the main flex box 
+
+alt+z
