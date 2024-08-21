@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 100vh; /* Full screen height */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full screen height */
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    flex-shrink: 0;
+}
+
+.title-section {
+    flex: 3;
+}
+
+.title-section h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    flex: 1;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; /* Adjusted to be responsive */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-left, .main-right, .advert {
+    border: 1px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-left {
+    flex: 2;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-right {
+    flex: 3;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picture {
+    flex: 3; /* This will take up 3 parts out of 4 in height */
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.story {
+    flex: 1; /* This will take up 1 part out of 4 in height */
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advert {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
